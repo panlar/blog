@@ -1,0 +1,32 @@
+@import 'variables';
+
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9;
+  background-color: $bg-color;
+}
+
+nav * {
+  font-family: 'Cascadia Code', 'Times New Roman', Times, serif !important;
+}
+
+.nav-logo {
+  width: 70px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: $text-color;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

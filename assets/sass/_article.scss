@@ -1,0 +1,76 @@
+@import 'variables';
+
+.post {
+  max-width: 75ch;
+  margin: auto;
+}
+
+.post :where(h1,h2,h3,h4,h5,h6) {
+  font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.post h1 {
+  font-size: 2.5rem;
+}
+
+.post h2 {
+  font-size: 2.25rem;
+}
+
+.post h3 {
+  font-size: 2rem;
+}
+
+.post h4 {
+  font-size: 1.75rem;
+}
+
+.post h5 {
+  font-size: 1.5rem;
+}
+
+.post h6 {
+  font-size: 1.25rem;
+}
+
+.post p {
+  margin: 1rem 0;
+  line-height: 180%;
+  font-size: 1.1rem;
+}
+
+.post blockquote {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 3px solid $gray-color;
+  background-color: #fafafa;
+}
+
+.post blockquote p {
+  margin: 0;
+}
+
+.post a,
+.post a code {
+  text-decoration: underline;
+  color: $text-color;
+}
+
+.post a:hover,
+.post a code:hover {
+  color: $primary-color;
+}
+
+.post li {
+  margin: 0.5rem 0;
+}
+
+.post b, .post strong {
+  font-weight: 500;
+}
+
+.post pre code {
+  line-height: 180%;
+}

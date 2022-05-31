@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Johan Barahona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/github-dark.min.css"
+    />
+    <link rel="stylesheet" href="./assets/sass/index.css" />
+    <style>
+      .list-posts {
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a class="nav-logo" href="#/">
+        <img src="./assets/img/logo-dark.png" alt="">
+      </a>
+      <div class="nav-links">
+        <a href="#/" class="nav-link">Articulos</a>
+        <a href="#/about" class="nav-link">Sobre mi</a>
+        <a href="#newsletter" class="nav-link">
+          <button class="btn">Newsletter</button>
+        </a>
+      </div>
+    </nav>
+    <main id="app" class="container"></main>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.js"></script>
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/panlar/scrollrevealjs/scrollreveal.min.js"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <script src="./assets/js/index.js" type="module"></script>
+  </body>
+</html>

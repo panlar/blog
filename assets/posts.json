@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Copiar texto en el portapapeles con JavaScript",
+    "path": "#/copiar-texto-en-el-portapapeles-con-javascript",
+    "date": "28/05/2022",
+    "image": "./assets/img/copiar-texto-en-el-portapeles-con-javascript-thumbnail.png",
+    "description": "Con el objeto <code>clipboard</code> de <code>window.navigator</code> puedes copiar y pegar texto en el portapapeles, en este articulo te enseño a hacer una funcion para copiar texto."
+  },
+  {
+    "title": "Mi segundo post",
+    "path": "#/segundo-post",
+    "date": "28/05/2022",
+    "image": "./assets/img/blog2.jpg",
+    "description": "lorem ipsum dolor sit atme"
+  },
+  {
+    "title": "Mi tercer post",
+    "path": "#/tercer-post",
+    "date": "28/05/2022",
+    "image": "./assets/img/blog3.jpg",
+    "description": "lorem ipsum dolor sit atme"
+  },
+  {
+    "title": "Mi cuarto post",
+    "path": "#/cuarto-post",
+    "date": "28/05/2022",
+    "image": "./assets/img/blog4.jpg",
+    "description": "lorem ipsum dolor sit atme"
+  }
+]
