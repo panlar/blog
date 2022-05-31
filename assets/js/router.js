@@ -1,4 +1,4 @@
-import Article from './components/article.js'
+import Article from './components/Article.js'
 import ListPosts from './components/ListPosts.js';
 import { mdToHtml, redirect, render } from './helpers.js';
 
