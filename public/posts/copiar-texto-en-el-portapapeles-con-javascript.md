@@ -4,7 +4,7 @@ title: Copiar texto en el portapapeles con JavaScript
 
 # Como copiar texto en el portapeles con JavaScript
 
-![como-copiar-texto-en-el-portapeles-con-javascript](./assets/img/copiar-texto-en-el-portapeles-con-javascript-thumbnail.png)
+![como-copiar-texto-en-el-portapeles-con-javascript](./public/assets/img/copiar-texto-en-el-portapeles-con-javascript-thumbnail.png)
 
 Ha sido muy popular en los ultimos años el poder copiar el texto de un articulo, el link de alguna libreria JS o CSS, un trozo de codigo. Todo esto ha sido gracias a la API de ```Clipboard``` que vino a reemplazar a [```document.execCommand()```](https://developer.mozilla.org/es/docs/Web/API/Document/execCommand).
 
