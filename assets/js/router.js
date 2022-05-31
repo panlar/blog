@@ -20,7 +20,7 @@ export default async () => {
   const existPath = posts.some(({ path }) => path === hash);
 
   if (existPath) {
-    const response = await fetch(`./posts/${route}.md`);
+    const response = await fetch(`./assets/posts/${route}.md`);
     const md = await response.text();
     render(Article(mdToHtml(md)));
   }
