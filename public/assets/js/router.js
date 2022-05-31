@@ -26,8 +26,6 @@ export default async () => {
       if (response.status === 404) return;
       const md = await response.text();
       render(Article(mdToHtml(md)));
-    } catch (error) {
-      
-    }
+    } catch (error) {}
   }
 };
