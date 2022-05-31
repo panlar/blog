@@ -1,6 +1,9 @@
-const Article = ({ html : html5, metadata }) => {
-  const html = `<article class="post section">${html5}</article>`;
-  return { html, metadata };
-}
+import { setSEOMetadata } from "../helpers.js"
 
-export default Article
+const Article = ({ html: html5, metadata }) => {
+  const html = `<article class="post section">${html5}</article>`;
+  setSEOMetadata(metadata);
+  return { html, metadata };
+};
+
+export default Article;

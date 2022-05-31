@@ -4,7 +4,7 @@
     "path": "#/copiar-texto-en-el-portapapeles-con-javascript",
     "date": "28/05/2022",
     "image": "./public/assets/img/copiar-texto-en-el-portapeles-con-javascript-thumbnail.png",
-    "description": "Con el objeto <code>clipboard</code> de <code>window.navigator</code> puedes copiar y pegar texto en el portapapeles, en este articulo te enseño a hacer una funcion para copiar texto."
+    "description": "Aprende a copiar el texto de tu pagina wen utilizando JavaScript. Con el objeto <code>clipboard</code> de <code>navigator</code>."
   },
   {
     "title": "Mi segundo post",

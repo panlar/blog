@@ -1,5 +1,7 @@
 ---
 title: Copiar texto en el portapapeles con JavaScript
+description: Aprende a copiar el texto de tu pagina wen utilizando JavaScript. Con el objeto clipboard de navigator.
+image: https://panlar.github.io/blog/public/assets/img/copiar-texto-en-el-portapeles-con-javascript.png
 ---
 
 # Como copiar texto en el portapeles con JavaScript

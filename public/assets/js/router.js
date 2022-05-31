@@ -21,7 +21,8 @@ export default async () => {
 
   if (existPath) {
     try {
-      const response = await fetch(`https://cdn.jsdelivr.net/gh/panlar/blog/public/posts/${route}.md`);
+      //const response = await fetch(`https://cdn.jsdelivr.net/gh/panlar/blog/public/posts/${route}.md`);
+      const response = await fetch(`./public/posts/${route}.md`);
       if (response.status === 404) return;
       const md = await response.text();
       render(Article(mdToHtml(md)));

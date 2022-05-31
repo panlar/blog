@@ -30,4 +30,22 @@ const render = ({ html, metadata }) => {
   hljs.highlightAll();
 };
 
-export { formatDate, redirect, mdToHtml, render };
+const setSEOMetadata = ({ title, description, image}) => {
+  const $metaDescription = document.querySelectorAll(
+    'meta[name="twitter:description"], meta[property="og:description"], meta[name="description"]'
+  );
+
+  const $metaTitle = document.querySelectorAll(
+    'meta[name="twitter:title"], meta[property="og:title"]'
+  );
+
+  const $metaImage = document.querySelectorAll(
+    'meta[name="twitter:image"], meta[property="og:image"]'
+  );
+
+  $metaDescription.forEach(meta => meta.setAttribute('content', description));
+  $metaTitle.forEach(meta => meta.setAttribute('content', title));
+  $metaImage.forEach(meta => meta.setAttribute('content', image));
+}
+
+export { formatDate, redirect, mdToHtml, render, setSEOMetadata };
